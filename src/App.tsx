@@ -21,14 +21,14 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-3">
-                <BookOpen className="w-8 h-8 text-blue-600" />
+                <BookOpen className="w-8 h-8 text-blue-400" />
                 <h1 className="text-2xl font-bold text-gray-900">Quit While You Are Ahead</h1>
               </div>
               <a
                 href="https://amzn.eu/d/4rXW4cF"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center space-x-2 shadow-lg"
+                className="bg-blue-400 hover:bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center space-x-2 shadow-lg"
               >
                 <span>Buy on Amazon</span>
                 <ExternalLink className="w-4 h-4" />
@@ -40,7 +40,7 @@ function App() {
         {/* Hero Section */}
         <section className="py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="bg-white bg-opacity-95 backdrop-blur-sm rounded-2xl p-8 shadow-2xl">
+            <div className="bg-blue-50 bg-opacity-70 backdrop-blur-sm rounded-2xl p-8 shadow-2xl border border-blue-200 border-opacity-30">
               <h2 className="text-5xl font-bold text-gray-900 mb-6">
                 Quit While You Are Ahead
               </h2>
@@ -52,12 +52,12 @@ function App() {
                   href="https://amzn.eu/d/4rXW4cF"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 flex items-center justify-center space-x-2 shadow-lg"
+                  className="bg-blue-400 hover:bg-blue-500 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 flex items-center justify-center space-x-2 shadow-lg"
                 >
                   <span>Get Your Copy Now</span>
                   <ExternalLink className="w-5 h-5" />
                 </a>
-                <button className="bg-gray-100 hover:bg-gray-200 text-gray-800 px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200">
+                <button className="bg-blue-100 bg-opacity-60 hover:bg-blue-200 hover:bg-opacity-70 text-gray-800 px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 border border-blue-200 border-opacity-40">
                   Read Sample Chapter
                 </button>
               </div>
@@ -69,9 +69,9 @@ function App() {
         <section className="py-16 px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white bg-opacity-95 backdrop-blur-sm rounded-xl p-6 shadow-xl">
-                <div className="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-lg mb-4">
-                  <Award className="w-6 h-6 text-blue-600" />
+              <div className="bg-blue-50 bg-opacity-60 backdrop-blur-sm rounded-xl p-6 shadow-xl border border-blue-200 border-opacity-30">
+                <div className="flex items-center justify-center w-12 h-12 bg-blue-200 bg-opacity-70 rounded-lg mb-4">
+                  <Award className="w-6 h-6 text-blue-500" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Strategic Thinking</h3>
                 <p className="text-gray-700">
@@ -79,9 +79,9 @@ function App() {
                 </p>
               </div>
 
-              <div className="bg-white bg-opacity-95 backdrop-blur-sm rounded-xl p-6 shadow-xl">
-                <div className="flex items-center justify-center w-12 h-12 bg-green-100 rounded-lg mb-4">
-                  <Users className="w-6 h-6 text-green-600" />
+              <div className="bg-blue-50 bg-opacity-60 backdrop-blur-sm rounded-xl p-6 shadow-xl border border-blue-200 border-opacity-30">
+                <div className="flex items-center justify-center w-12 h-12 bg-blue-200 bg-opacity-70 rounded-lg mb-4">
+                  <Users className="w-6 h-6 text-blue-500" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Real-World Examples</h3>
                 <p className="text-gray-700">
@@ -89,9 +89,9 @@ function App() {
                 </p>
               </div>
 
-              <div className="bg-white bg-opacity-95 backdrop-blur-sm rounded-xl p-6 shadow-xl">
-                <div className="flex items-center justify-center w-12 h-12 bg-purple-100 rounded-lg mb-4">
-                  <BookOpen className="w-6 h-6 text-purple-600" />
+              <div className="bg-blue-50 bg-opacity-60 backdrop-blur-sm rounded-xl p-6 shadow-xl border border-blue-200 border-opacity-30">
+                <div className="flex items-center justify-center w-12 h-12 bg-blue-200 bg-opacity-70 rounded-lg mb-4">
+                  <BookOpen className="w-6 h-6 text-blue-500" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Practical Framework</h3>
                 <p className="text-gray-700">
@@ -105,13 +105,13 @@ function App() {
         {/* Testimonials Section */}
         <section className="py-16 px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-white bg-opacity-95 backdrop-blur-sm rounded-2xl p-8 shadow-2xl">
+            <div className="bg-blue-50 bg-opacity-70 backdrop-blur-sm rounded-2xl p-8 shadow-2xl border border-blue-200 border-opacity-30">
               <h3 className="text-3xl font-bold text-center text-gray-900 mb-8">What Readers Are Saying</h3>
               <div className="grid md:grid-cols-2 gap-8">
-                <div className="border-l-4 border-blue-500 pl-6">
+                <div className="border-l-4 border-blue-400 pl-6">
                   <div className="flex items-center mb-3">
                     {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+                      <Star key={i} className="w-5 h-5 text-blue-300 fill-current" />
                     ))}
                   </div>
                   <p className="text-gray-700 mb-3">
@@ -119,10 +119,10 @@ function App() {
                   </p>
                   <p className="font-semibold text-gray-900">— Sarah M., Entrepreneur</p>
                 </div>
-                <div className="border-l-4 border-green-500 pl-6">
+                <div className="border-l-4 border-blue-400 pl-6">
                   <div className="flex items-center mb-3">
                     {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+                      <Star key={i} className="w-5 h-5 text-blue-300 fill-current" />
                     ))}
                   </div>
                   <p className="text-gray-700 mb-3">
@@ -138,7 +138,7 @@ function App() {
         {/* CTA Section */}
         <section className="py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 shadow-2xl text-white">
+            <div className="bg-gradient-to-r from-blue-400 to-blue-500 bg-opacity-90 backdrop-blur-sm rounded-2xl p-8 shadow-2xl text-white border border-blue-300 border-opacity-40">
               <h3 className="text-3xl font-bold mb-4">Ready to Transform Your Decision-Making?</h3>
               <p className="text-xl mb-8 opacity-90">
                 Join thousands of readers who have discovered the power of strategic quitting.
@@ -147,7 +147,7 @@ function App() {
                 href="https://amzn.eu/d/4rXW4cF"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition-colors duration-200 inline-flex items-center space-x-2 shadow-lg"
+                className="bg-white bg-opacity-90 text-blue-500 hover:bg-opacity-100 px-8 py-4 rounded-lg font-bold text-lg transition-colors duration-200 inline-flex items-center space-x-2 shadow-lg"
               >
                 <span>Order Now on Amazon</span>
                 <ExternalLink className="w-5 h-5" />
@@ -157,13 +157,13 @@ function App() {
         </section>
 
         {/* Footer */}
-        <footer className="bg-gray-900 bg-opacity-95 backdrop-blur-sm text-white py-8">
+        <footer className="bg-blue-900 bg-opacity-80 backdrop-blur-sm text-white py-8 border-t border-blue-300 border-opacity-30">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="flex items-center justify-center space-x-3 mb-4">
               <BookOpen className="w-6 h-6" />
               <span className="text-xl font-bold">Quit While You Are Ahead</span>
             </div>
-            <p className="text-gray-300">
+            <p className="text-blue-100">
               © 2024 Quit While You Are Ahead. All rights reserved.
             </p>
           </div>
