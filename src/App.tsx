@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Star, BookOpen, Users, Award } from 'lucide-react';
+import { ExternalLink, Star, BookOpen } from 'lucide-react';
 
 function App() {
   return (
@@ -65,37 +65,17 @@ function App() {
           </div>
         </section>
 
-        {/* Features Section */}
+        {/* Book Description Section */}
         <section className="py-16 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-blue-50 bg-opacity-60 backdrop-blur-sm rounded-xl p-6 shadow-xl border border-blue-200 border-opacity-30">
-                <div className="flex items-center justify-center w-12 h-12 bg-blue-200 bg-opacity-70 rounded-lg mb-4">
-                  <Award className="w-6 h-6 text-blue-500" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Strategic Thinking</h3>
-                <p className="text-gray-700">
-                  Learn to make calculated decisions about when persistence serves you and when it holds you back from greater opportunities.
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-blue-50 bg-opacity-70 backdrop-blur-sm rounded-2xl p-8 shadow-2xl border border-blue-200 border-opacity-30">
+              <h3 className="text-3xl font-bold text-gray-900 mb-6 text-center">Quit While You Are Ahead: A Real, Raw Guide to Reclaiming Your Life from Alcohol</h3>
+              <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+                <p>
+                  Are you tired of waking up with regret? Wondering if alcohol is taking more than it's giving? Quit While You Are Ahead is your compassionate, honest, and unfiltered companion for the journey to sobriety—whether you're just curious or fighting for your freedom from alcohol's grip.
                 </p>
-              </div>
-
-              <div className="bg-blue-50 bg-opacity-60 backdrop-blur-sm rounded-xl p-6 shadow-xl border border-blue-200 border-opacity-30">
-                <div className="flex items-center justify-center w-12 h-12 bg-blue-200 bg-opacity-70 rounded-lg mb-4">
-                  <Users className="w-6 h-6 text-blue-500" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Real-World Examples</h3>
-                <p className="text-gray-700">
-                  Discover stories of successful entrepreneurs and leaders who mastered the art of strategic quitting to achieve extraordinary results.
-                </p>
-              </div>
-
-              <div className="bg-blue-50 bg-opacity-60 backdrop-blur-sm rounded-xl p-6 shadow-xl border border-blue-200 border-opacity-30">
-                <div className="flex items-center justify-center w-12 h-12 bg-blue-200 bg-opacity-70 rounded-lg mb-4">
-                  <BookOpen className="w-6 h-6 text-blue-500" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Practical Framework</h3>
-                <p className="text-gray-700">
-                  Get actionable tools and frameworks to evaluate your current commitments and make smarter decisions about your future.
+                <p>
+                  In this deeply personal and powerful book, the author shares hard-earned wisdom, raw journal entries, and real-life stories of struggle, slip-ups, and breakthrough moments. This isn't a clinical guide—it's a conversation with someone who's been exactly where you are.
                 </p>
               </div>
             </div>
