@@ -57,9 +57,15 @@ function App() {
                   <span>Get Your Copy Now</span>
                   <ExternalLink className="w-5 h-5" />
                 </a>
-                <button className="bg-blue-100 bg-opacity-60 hover:bg-blue-200 hover:bg-opacity-70 text-gray-800 px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 border border-blue-200 border-opacity-40">
-                  Read Sample Chapter
-                </button>
+                <a
+                  href="/public/backcover.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-blue-100 bg-opacity-60 hover:bg-blue-200 hover:bg-opacity-70 text-gray-800 px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 border border-blue-200 border-opacity-40 flex items-center justify-center space-x-2"
+                >
+                  <span>The Back Cover</span>
+                  <ExternalLink className="w-5 h-5" />
+                </a>
               </div>
             </div>
           </div>
