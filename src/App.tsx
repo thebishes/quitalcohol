@@ -8,7 +8,7 @@ function App() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/public/quit1.jpg)',
+          backgroundImage: 'url(/quit1.jpg)',
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
@@ -58,7 +58,7 @@ function App() {
                   <ExternalLink className="w-5 h-5" />
                 </a>
                 <a
-                  href="/public/backcover.jpg"
+                  href="/backcover.jpg"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-100 bg-opacity-60 hover:bg-blue-200 hover:bg-opacity-70 text-gray-800 px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 border border-blue-200 border-opacity-40 flex items-center justify-center space-x-2"
