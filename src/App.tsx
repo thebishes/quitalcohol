@@ -101,9 +101,9 @@ function App() {
                     ))}
                   </div>
                   <p className="text-gray-700 mb-3">
-                    "This book completely changed how I think about commitment and success. A must-read for anyone feeling stuck in their career or business."
+                    "This book completely changed how I think about my relationship to alcohol and how I could be harming myself in the long run.  It has certainly made me think long and hard about kicking drinking and exploring new options."
                   </p>
-                  <p className="font-semibold text-gray-900">— Sarah M., Entrepreneur</p>
+                  <p className="font-semibold text-gray-900">— Sarah</p>
                 </div>
                 <div className="border-l-4 border-blue-400 pl-6">
                   <div className="flex items-center mb-3">
@@ -112,9 +112,9 @@ function App() {
                     ))}
                   </div>
                   <p className="text-gray-700 mb-3">
-                    "Brilliant insights backed by solid research. The framework helped me make the best career decision of my life."
+                    "Brilliant insights backed by solid and real own stories.  An eye opener and great success story."
                   </p>
-                  <p className="font-semibold text-gray-900">— Michael R., Executive</p>
+                  <p className="font-semibold text-gray-900">— Michael</p>
                 </div>
               </div>
             </div>
