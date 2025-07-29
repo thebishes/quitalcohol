@@ -125,9 +125,9 @@ function App() {
         <section className="py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <div className="bg-gradient-to-r from-blue-400 to-blue-500 bg-opacity-90 backdrop-blur-sm rounded-2xl p-8 shadow-2xl text-white border border-blue-300 border-opacity-40">
-              <h3 className="text-3xl font-bold mb-4">Ready to Transform Your Decision-Making?</h3>
+              <h3 className="text-3xl font-bold mb-4">Ready to Transform Your Life?</h3>
               <p className="text-xl mb-8 opacity-90">
-                Join thousands of readers who have discovered the power of strategic quitting.
+                Join other readers who have discovered the power of quitting.
               </p>
               <a
                 href="https://amzn.eu/d/4rXW4cF"
